@@ -1,5 +1,5 @@
 # Yelp Demo App
-- React, Redux, Express example using Yelp
+- Using React, Redux, Express example using Yelp
 
 ## How to setup
 ```
