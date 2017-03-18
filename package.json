@@ -1,0 +1,55 @@
+{
+  "name": "yelp-online",
+  "version": "0.0.1",
+  "description": "Yelp Online",
+  "scripts": {
+    "start": "babel-node server/index.js",
+    "lint": "eslint client"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.3.14",
+    "css-loader": "^0.26.1",
+    "es6-promise": "^4.0.5",
+    "isomorphic-fetch": "^2.2.1",
+    "oauth": "^0.9.12",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-actions": "^1.2.1",
+    "reselect": "^2.5.4",
+    "style-loader": "^0.13.1",
+    "yelp": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.7.7",
+    "babel-core": "^6.3.15",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.6.5",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.3.13",
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-plugin-import": "^1.6.1",
+    "eslint-plugin-jsx-a11y": "^1.0.4",
+    "eslint-plugin-react": "^5.0.1",
+    "express": "^4.13.3",
+    "webpack": "^1.9.11",
+    "webpack-dev-middleware": "^1.2.0",
+    "extract-text-webpack-plugin": "2.0.0-beta.3",
+    "classnames": "*",
+    "lodash": "^4.13.0",
+    "redux-devtools-extension": "*",
+    "redux-thunk": "*"
+  },
+  "engines": {
+    "node": "4.2.6",
+    "npm": "4.0.3"
+  }
+}
